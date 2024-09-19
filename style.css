@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(105, 18, 12);
+    color: rgb(211, 178, 168, 0.993);
+    font-family: "Nerko One", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: rgb( 206, 164, 148);
+    color: rgb(80, 8, 3);
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
